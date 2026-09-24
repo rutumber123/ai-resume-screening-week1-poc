@@ -1,0 +1,20 @@
+Morgan Blake
+morgan.blake@example.com
+
+Summary
+Polyglot technologist with 6 years of experience.
+
+Skills
+Python, FastAPI, Docker, PostgreSQL, pytest, OpenAI API, RAG, LangChain,
+Photoshop, Final Cut Pro, Beekeeping, Sourdough Baking, Chess Engines,
+Arduino, 3D Printing, Calligraphy, Scuba Diving, Excel Macros, Tableau,
+Unreal Engine, Blender, Guitar Pedals, Home Automation, Knitting Patterns
+
+Experience
+Software Engineer — Northwind Soft (2019–Present)
+- Built FastAPI microservices and RAG prototypes with LangChain and OpenAI API
+- Used Docker and PostgreSQL in production
+- Wrote pytest suites for regression coverage
+
+Education
+B.S. Computer Science

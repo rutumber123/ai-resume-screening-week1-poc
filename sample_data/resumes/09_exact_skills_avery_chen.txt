@@ -1,0 +1,16 @@
+Avery Chen
+avery.chen@example.com
+
+Skills
+Python, FastAPI, LangChain, LlamaIndex, RAG, OpenAI API, Docker, PostgreSQL, pytest, Kubernetes, Azure OpenAI, CI/CD, TypeScript
+
+Experience
+Senior Software Engineer — 6 years total experience
+- Exact stack match for GenAI services using Python, FastAPI, LangChain, RAG, OpenAI API
+- Dockerized deployments with PostgreSQL and pytest coverage
+
+Education
+B.S. Computer Science
+
+Certifications
+AWS Certified Developer

@@ -1,0 +1,21 @@
+Priya Shah
+priya.shah@example.com
+
+Summary
+Python developer with 5 years of experience.
+
+Skills
+Python, Flask, SQLAlchemy, pandas, NumPy
+
+Experience
+Python Developer — Humongous Insurance (2019–Present)
+- Built data processing scripts in Python with pandas and NumPy
+- Created Flask APIs with SQLAlchemy
+- Uses Flask only for HTTP APIs (no other Python web frameworks listed)
+- No containerization or managed Postgres usage listed
+- No LLM orchestration libraries listed
+
+Education
+B.S. Computer Science
+
+Note for evaluators: language experience must not be inferred as a specific web framework.

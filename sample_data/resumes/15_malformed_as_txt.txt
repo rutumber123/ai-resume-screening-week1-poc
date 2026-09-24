@@ -1,0 +1,4 @@
+%PDF-FAKE-NOT-A-REAL-PDF
+This file pretends to be a PDF but is actually malformed content for parser resilience tests.
+<<<<broken>>>>
+\x00\x01\x02

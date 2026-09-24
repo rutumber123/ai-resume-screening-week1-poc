@@ -1,0 +1,29 @@
+Data Engineer
+
+Job Title: Data Engineer
+
+Responsibilities:
+- Build and maintain ETL/ELT pipelines
+- Model analytical datasets for BI consumers
+- Optimize warehouse performance and data quality checks
+- Partner with analytics and ML teams
+
+Required Skills:
+- SQL
+- Python
+- Airflow
+- dbt
+- Snowflake or BigQuery
+- Data modeling
+
+Preferred Skills:
+- Spark
+- Kafka
+- AWS
+- Terraform
+
+Minimum Experience:
+3 years in data engineering roles.
+
+Education:
+Bachelor's degree in a quantitative field.

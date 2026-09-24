@@ -1,0 +1,17 @@
+Drew Alvarez
+drew.alvarez@example.com
+
+Summary
+Data engineer with 4 years of experience.
+
+Skills
+SQL, Python, Airflow, dbt, Snowflake, Data modeling, Spark, AWS
+
+Experience
+Data Engineer — Contoso Analytics (2021–Present)
+- Built Airflow DAGs and dbt models on Snowflake
+- Wrote Python data quality checks
+- Used SQL extensively for analytical datasets
+
+Education
+B.S. Statistics

@@ -1,0 +1,16 @@
+Nora Volkov
+nora.volkov@example.com
+
+Summary
+Software engineer with 5 years of experience in Python services and early GenAI prototypes.
+
+Skills
+Python, FastAPI, Docker, PostgreSQL, pytest, OpenAI API, RAG
+
+Experience
+Software Engineer — Contoso (2021–Present)
+- FastAPI services, Docker, PostgreSQL, pytest
+- Built a small RAG prototype with OpenAI API
+
+Education
+B.S. Computer Science

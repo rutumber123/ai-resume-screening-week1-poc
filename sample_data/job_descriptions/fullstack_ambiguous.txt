@@ -1,0 +1,12 @@
+Full Stack Engineer (Ambiguous Requirements)
+
+Looking for a strong engineer who can wear multiple hats and move fast.
+
+You'll work across the stack on customer-facing features. Familiarity with modern web technologies is important. Cloud experience helps. We value ownership and communication.
+
+Skills we care about (mixed):
+React, Node.js, Python, AWS, Docker, SQL, communication skills, product sense, maybe GraphQL, and testing.
+
+Experience: several years preferred, depending on background.
+
+Education: relevant degree or equivalent experience.

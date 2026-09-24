@@ -1,0 +1,36 @@
+Senior Python / GenAI Engineer
+
+We are hiring a Senior Python / GenAI Engineer to design and ship LLM-powered applications.
+
+Responsibilities:
+- Design and implement GenAI application pipelines including retrieval and evaluation hooks
+- Build FastAPI services and Streamlit demos for internal stakeholders
+- Collaborate with QA engineers on LLM evaluation and regression testing
+- Improve prompt robustness against hallucination and prompt injection
+- Own production readiness concerns such as logging, configuration, and structured outputs
+
+Required Skills:
+- Python
+- FastAPI
+- LangChain or LlamaIndex
+- RAG
+- OpenAI API or equivalent LLM APIs
+- Docker
+- PostgreSQL
+- Unit testing with pytest
+
+Preferred Skills:
+- Kubernetes
+- Azure OpenAI
+- Observability / logging platforms
+- CI/CD
+- TypeScript
+
+Minimum Experience:
+5 years of software engineering experience, including at least 1 year building LLM applications.
+
+Education:
+Bachelor's degree in Computer Science or related field.
+
+Certifications:
+AWS Certified Developer or equivalent is a plus.

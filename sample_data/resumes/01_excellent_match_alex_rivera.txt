@@ -1,0 +1,29 @@
+Alex Rivera
+alex.rivera@example.com | LinkedIn: linkedin.com/in/alexrivera-synthetic
+
+Summary
+Senior software engineer with 7 years of experience building backend systems and LLM-powered applications.
+
+Skills
+Python, FastAPI, LangChain, LlamaIndex, RAG, OpenAI API, Docker, PostgreSQL, pytest, Kubernetes, CI/CD, Azure OpenAI
+
+Experience
+Senior GenAI Engineer — Contoso Labs (2022–Present)
+- Designed GenAI application pipelines with retrieval and evaluation hooks
+- Built FastAPI services and Streamlit demos for stakeholders
+- Hardened prompts against hallucination and prompt injection
+- Added structured JSON outputs and validation
+
+Software Engineer — Fabrikam Systems (2018–2022)
+- Developed Python microservices and PostgreSQL data models
+- Introduced pytest coverage and Docker-based local environments
+
+Projects
+- Internal RAG assistant over policy documents with citation evidence
+- Candidate screening prototype with weighted scoring
+
+Education
+B.S. Computer Science, Northbridge University
+
+Certifications
+AWS Certified Developer – Associate

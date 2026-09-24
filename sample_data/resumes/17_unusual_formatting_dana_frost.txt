@@ -1,0 +1,17 @@
+Name:::: Dana Frost
+Email :: dana.frost [at] example.com
+
+=== S K I L L S ===
+Python ||| FastAPI ||| Docker
+PostgreSQL *** pytest *** RAG
+OpenAI API
+
+*** EXPERIENCE ***
+(2020—Present) Engineer @ Contoso
+>> built FastAPI services
+>> dockerized python apps
+>> used postgresql & pytest
+years of experience: 5 years
+
+EDU>>
+B.S. CS

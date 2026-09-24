@@ -1,0 +1,25 @@
+Jamie Ortega
+jamie.ortega@example.com
+
+Summary
+Principal engineer with 15 years of software engineering experience, including 3 years of LLM application development.
+
+Skills
+Python, FastAPI, LangChain, LlamaIndex, RAG, OpenAI API, Docker, PostgreSQL, pytest,
+Kubernetes, CI/CD, Azure OpenAI, System Design, Mentoring
+
+Experience
+Principal Engineer — Fabrikam AI (2018–Present)
+- Led GenAI platform initiatives spanning RAG, evaluation hooks, and FastAPI gateways
+- Mentored teams on prompt injection defenses and structured output validation
+- Operated Docker/Kubernetes deployments with PostgreSQL backends
+
+Staff Engineer — Adventure Works (2010–2018)
+- Built large-scale Python services and CI/CD pipelines
+
+Education
+M.S. Computer Science
+B.S. Computer Science
+
+Certifications
+AWS Certified Developer – Associate

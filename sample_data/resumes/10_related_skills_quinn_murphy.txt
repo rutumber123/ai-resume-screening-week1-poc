@@ -1,0 +1,20 @@
+Quinn Murphy
+quinn.murphy@example.com
+
+Summary
+Backend engineer with 6 years of experience.
+
+Skills
+Java, Spring Boot, Hibernate, Kafka, MySQL, Jenkins, Groovy
+
+Experience
+Backend Engineer — Litware Inc (2019–Present)
+- Built Spring Boot microservices and MySQL schemas
+- Operated Jenkins pipelines
+- Focused on JVM enterprise services rather than LLM application stacks
+
+Education
+B.S. Software Engineering
+
+Note
+Related enterprise backend skills, but different stack from the GenAI job description.

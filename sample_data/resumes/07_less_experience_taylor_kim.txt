@@ -1,0 +1,17 @@
+Taylor Kim
+taylor.kim@example.com
+
+Summary
+Software engineer with 2 years of experience building Python services.
+
+Skills
+Python, FastAPI, Docker, PostgreSQL, pytest, LangChain, RAG, OpenAI API
+
+Experience
+Software Engineer — Contoso (2023–Present)
+- Implemented FastAPI endpoints and basic RAG demos with LangChain
+- Used Docker locally and PostgreSQL for storage
+- Wrote pytest unit tests
+
+Education
+B.S. Computer Science, 2023

@@ -1,0 +1,23 @@
+Sam Patel
+sam.patel@example.com
+
+Summary
+Backend engineer with 5 years of experience in Python web services.
+
+Skills
+Python, FastAPI, Docker, PostgreSQL, pytest, Redis, REST APIs
+
+Experience
+Backend Engineer — Adventure Works (2020–Present)
+- Built FastAPI services for order management
+- Wrote unit tests with pytest and containerized services with Docker
+- Designed PostgreSQL schemas for transactional workloads
+
+Software Engineer — Wide World Importers (2019–2020)
+- Maintained Python ETL scripts
+
+Education
+B.S. Information Systems, Metro Technical University
+
+Notes
+Familiar with cloud basics but no production Kubernetes experience. No LangChain/LlamaIndex listed.

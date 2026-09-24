@@ -1,0 +1,16 @@
+Riley Brooks
+riley.brooks@example.com
+
+Professional Experience
+Software Engineer, Blue Yonder Tech — 2017 to Present (8 years)
+Built customer onboarding APIs in Python using FastAPI. Deployed services with Docker.
+Implemented retrieval-augmented generation (RAG) flows calling the OpenAI API.
+Used PostgreSQL for persistence and pytest for automated tests.
+Also shipped internal tools with LangChain for document Q&A.
+
+Earlier Role
+Junior Developer, Tailspin Toys — 2015 to 2017
+Maintained Java services and wrote SQL reports.
+
+Education
+B.S. Computer Engineering

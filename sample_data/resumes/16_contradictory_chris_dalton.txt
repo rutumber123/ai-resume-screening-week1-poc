@@ -1,0 +1,19 @@
+Chris Dalton
+chris.dalton@example.com
+
+Summary
+Software engineer with 3 years of experience.
+Software engineer with 10 years of experience.
+
+Skills
+Python, FastAPI
+Skills
+No programming languages
+
+Experience
+Total experience: 3 years
+Total experience: 12 years
+
+Education
+PhD Computer Science
+Education: None / still in high school
