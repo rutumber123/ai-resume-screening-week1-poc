@@ -1,0 +1,18 @@
+Casey Cloud
+casey.cloud@example.com
+
+Summary
+Backend engineer with 4 years of experience.
+
+Skills
+Python, Docker, REST APIs
+
+Experience
+Software Engineer
+- Worked with cloud platforms for deploying internal tools
+- Built Python services with Docker
+
+Education
+B.S. Computer Science
+
+Note: Mentions cloud platforms only — does not name AWS, Azure, or GCP.

@@ -1,0 +1,5 @@
+results/*.json
+results/*.md
+results/traces/
+!results/.gitkeep
+!results/BASELINE_RUN_ID.txt

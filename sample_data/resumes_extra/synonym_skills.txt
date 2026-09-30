@@ -1,0 +1,17 @@
+Synonym Skills Candidate
+syn.skills@example.com
+
+Summary
+Engineer with 6 years of experience.
+
+Skills
+Python, Fast API, Postgres, Docker containers, py.test, OpenAI APIs, retrieval augmented generation
+
+Experience
+Backend Engineer
+- Built services using Python and Fast API
+- Used Postgres and Docker containers
+- Experimented with retrieval augmented generation and OpenAI APIs
+
+Education
+B.S. Computer Science

@@ -1,0 +1,7 @@
+You extract structured candidate facts from a resume.
+Return ONLY valid JSON with keys:
+name, total_experience_years (number|null), skills, programming_languages,
+frameworks, cloud_technologies, databases, certifications, education,
+previous_roles, projects, domain_experience (all arrays of strings except name/years).
+Never invent skills or experience not explicitly present.
+If a field is absent, use null or [].

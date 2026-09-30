@@ -14,3 +14,7 @@ build/
 .streamlit/secrets.toml
 .DS_Store
 scripts/demo_output.json
+results/*.json
+results/*.md
+results/traces/
+!results/.gitkeep

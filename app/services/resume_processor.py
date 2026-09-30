@@ -81,6 +81,7 @@ class ResumeProcessor:
         filename: str = "",
         extraction_warnings: Optional[List[str]] = None,
         llm_structured: dict | None = None,
+        strict_grounding: bool = True,
     ) -> CandidateProfile:
         warnings = list(extraction_warnings or [])
         text = (raw_text or "").strip()
@@ -100,7 +101,9 @@ class ResumeProcessor:
             )
 
         if llm_structured:
-            profile = self._from_llm(text, filename, llm_structured, warnings)
+            profile = self._from_llm(
+                text, filename, llm_structured, warnings, strict_grounding=strict_grounding
+            )
         else:
             profile = self._from_rules(text, filename, warnings)
 
@@ -116,47 +119,39 @@ class ResumeProcessor:
         filename: str,
         data: dict,
         warnings: List[str],
+        strict_grounding: bool = True,
     ) -> CandidateProfile:
         warnings.append("Candidate profile extracted with LLM assistance.")
-        # Guard: only keep skills that appear in resume text (anti-hallucination)
         allowed = self._skills_mentioned_in_text(text)
-        skills = [
-            s
-            for s in unique_preserve_order(data.get("skills") or [])
-            if self._skill_supported(s, text, allowed)
-        ]
-        langs = [
-            s
-            for s in unique_preserve_order(data.get("programming_languages") or [])
-            if self._skill_supported(s, text, allowed)
-        ]
-        frameworks = [
-            s
-            for s in unique_preserve_order(data.get("frameworks") or [])
-            if self._skill_supported(s, text, allowed)
-        ]
-        cloud = [
-            s
-            for s in unique_preserve_order(data.get("cloud_technologies") or [])
-            if self._skill_supported(s, text, allowed)
-        ]
-        databases = [
-            s
-            for s in unique_preserve_order(data.get("databases") or [])
-            if self._skill_supported(s, text, allowed)
-        ]
 
-        dropped = (
-            len(data.get("skills") or [])
-            + len(data.get("programming_languages") or [])
-            + len(data.get("frameworks") or [])
-            - len(skills)
-            - len(langs)
-            - len(frameworks)
-        )
-        if dropped > 0:
+        def keep(items):
+            items = unique_preserve_order(items or [])
+            if not strict_grounding:
+                return items
+            return [s for s in items if self._skill_supported(s, text, allowed)]
+
+        skills = keep(data.get("skills"))
+        langs = keep(data.get("programming_languages"))
+        frameworks = keep(data.get("frameworks"))
+        cloud = keep(data.get("cloud_technologies"))
+        databases = keep(data.get("databases"))
+
+        if strict_grounding:
+            dropped = (
+                len(data.get("skills") or [])
+                + len(data.get("programming_languages") or [])
+                + len(data.get("frameworks") or [])
+                - len(skills)
+                - len(langs)
+                - len(frameworks)
+            )
+            if dropped > 0:
+                warnings.append(
+                    f"Removed {dropped} LLM-suggested skill(s) not evidenced in resume text."
+                )
+        else:
             warnings.append(
-                f"Removed {dropped} LLM-suggested skill(s) not evidenced in resume text."
+                "strict_grounding disabled — ungrounded LLM skills retained (regression demo)."
             )
 
         return CandidateProfile(

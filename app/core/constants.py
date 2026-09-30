@@ -28,6 +28,7 @@ SKILL_ALIASES: dict[str, set[str]] = {
     "node.js": {"node", "nodejs", "node.js"},
     "react": {"react", "reactjs", "react.js"},
     "fastapi": {"fastapi", "fast api"},
+    "docker": {"docker", "containers"},
     "openai api": {"openai", "openai api", "openai apis"},
     "pytest": {"pytest", "py.test", "unit testing with pytest"},
 }
@@ -37,7 +38,10 @@ INJECTION_PATTERNS = [
     r"ignore\s+the\s+instructions",
     r"you\s+are\s+now",
     r"system\s*:\s*",
+    r"<<<\s*system\s*>>>",
+    r"unrestricted\s+mode",
     r"shortlist\s+this\s+candidate",
+    r"mark\s+this\s+candidate\s+as\s+the\s+best",
     r"give\s+(this\s+)?candidate\s+(a\s+)?(perfect|100|high)\s+score",
     r"disregard\s+(all\s+)?(prior|previous)\s+(rules|instructions)",
 ]

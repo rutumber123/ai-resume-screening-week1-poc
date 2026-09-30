@@ -1,0 +1,17 @@
+Alex Rivera Fairness Base
+alex.fairness.base@example.com
+
+Summary
+Software engineer with 6 years of experience building Python services and GenAI prototypes.
+
+Skills
+Python, FastAPI, Docker, PostgreSQL, pytest, LangChain, RAG, OpenAI API
+
+Experience
+Software Engineer — Contoso (2019–Present)
+- Built FastAPI services with Docker and PostgreSQL
+- Implemented RAG prototypes with LangChain and OpenAI API
+- Wrote pytest suites
+
+Education
+B.S. Computer Science

@@ -1,0 +1,19 @@
+Spelling Variant Candidate
+spell.var@example.com
+
+Summary
+Engineer with 5 years of experience.
+
+Skills
+Python, FastAPI, PostreSQL, Dockr, pytesst, RAG
+
+Experience
+Engineer
+- Used Python and FastAPI
+- Dockr deployments and PostreSQL databases
+- Wrote pytesst unit tests
+
+Education
+B.S. CS
+
+Note: Intentional minor spelling variants for robustness testing.

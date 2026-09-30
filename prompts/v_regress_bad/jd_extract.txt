@@ -1,0 +1,5 @@
+You extract structured job requirements from a job description.
+Return ONLY valid JSON with keys:
+title, required_skills, preferred_skills, min_experience_years,
+education_requirements, certifications, responsibilities, other_requirements.
+Be generous interpreting soft requirements as hard requirements.

@@ -30,8 +30,11 @@ logger = get_logger(__name__)
 class ScreeningService:
     """Coordinates JD/resume processing, evaluation, and comparison."""
 
-    def __init__(self, settings: Settings | None = None) -> None:
+    def __init__(
+        self, settings: Settings | None = None, prompt_version: str | None = None
+    ) -> None:
         self.settings = settings or get_settings()
+        self.prompt_version = prompt_version
         self.documents = DocumentProcessor(self.settings)
         self.jd_processor = JDProcessor()
         self.resume_processor = ResumeProcessor()
@@ -57,7 +60,11 @@ class ScreeningService:
 
         with timed_operation("screening_run", logger):
             llm_jd = (
-                extract_jd_with_llm(self.llm, job_description_text) if use_llm else None
+                extract_jd_with_llm(
+                    self.llm, job_description_text, self.prompt_version
+                )
+                if use_llm
+                else None
             )
             jd = self.jd_processor.process(job_description_text, llm_structured=llm_jd)
             notes.extend(jd.parsing_notes)
@@ -75,13 +82,35 @@ class ScreeningService:
                 warnings.extend(injection_warnings)
 
                 llm_resume = (
-                    extract_resume_with_llm(self.llm, text) if use_llm else None
+                    extract_resume_with_llm(self.llm, text, self.prompt_version)
+                    if use_llm
+                    else None
                 )
+                # Offline regression demo: simulate a bad prompt that invents skills
+                if self.prompt_version == "v_regress_bad" and llm_resume is None:
+                    llm_resume = {
+                        "name": None,
+                        "total_experience_years": None,
+                        "skills": ["Python", "Django", "FastAPI", "AWS", "Azure", "GCP"],
+                        "programming_languages": ["Python"],
+                        "frameworks": ["Django", "FastAPI"],
+                        "cloud_technologies": ["AWS", "Azure", "GCP"],
+                        "databases": [],
+                        "certifications": [],
+                        "education": [],
+                        "previous_roles": [],
+                        "projects": [],
+                        "domain_experience": [],
+                    }
+                    notes.append(
+                        "v_regress_bad offline simulation: invented related skills for regression demo."
+                    )
                 profile = self.resume_processor.process(
                     text,
                     filename=filename,
                     extraction_warnings=warnings,
                     llm_structured=llm_resume,
+                    strict_grounding=self.prompt_version != "v_regress_bad",
                 )
                 evaluation = self.evaluator.evaluate(jd, profile)
                 evaluations.append(evaluation)
@@ -90,7 +119,6 @@ class ScreeningService:
                 raise ValueError("No resumes could be processed successfully.")
 
             comparison = self.build_comparison(evaluations)
-            # Rank by match descending for demo clarity
             evaluations_sorted = sorted(
                 evaluations, key=lambda e: e.overall_match, reverse=True
             )

@@ -1,6 +1,8 @@
-# AI Resume Screening Assistant — Week 1 POC
+# AI Resume Screening Assistant — Week 1 + Week 2 POC
 
 GenAI application that screens multiple candidate resumes against a job description, produces **structured evaluations**, transparent **matching scores**, and a **multi-candidate comparison** view.
+
+**Week 2** adds an automated **LLM testing & evaluation framework** around this application (dataset → runner → metrics → reports → regression).
 
 This is **not** a chatbot. It is a pipeline:
 
@@ -8,6 +10,7 @@ This is **not** a chatbot. It is a pipeline:
 Job Description → JD Processing → Resume Upload → Document Extraction
 → Candidate Extraction → Requirement Matching → Scoring → Structured Results
 → Comparison → Validation
+→ (Week 2) Evaluation Dataset → Test Runner → Metrics → Report → Regression
 ```
 
 Default mode uses a **deterministic extractor + scorer** (`LLM_PROVIDER=mock`) so the POC runs without API keys. Swap to OpenAI/Azure for LLM-assisted extraction without changing the pipeline.
@@ -143,17 +146,27 @@ python scripts/run_demo.py
 python scripts/run_baseline_eval.py
 ```
 
+### Week 2 — LLM evaluation suite
+
+```bash
+python scripts/generate_week2_catalog.py
+python scripts/run_evaluation.py --set-baseline
+```
+
+See [docs/WEEK2_EVALUATION.md](docs/WEEK2_EVALUATION.md) and [docs/WEEK2_STATUS.md](docs/WEEK2_STATUS.md).
+
 ---
 
 ## Evaluation
 
-Baseline dataset: `evaluation_data/baseline_scenarios.json` (~25 scenarios).
+**Week 1 baseline:** `evaluation_data/baseline_scenarios.json` (~25 scenarios).
 
-Covers excellent/poor/partial matches, missing info, no skills section, irrelevant skills, experience extremes, similar profiles, long/empty/malformed/contradictory/unusual resumes, ambiguous JDs, prompt injection, and no unsupported inference (Python ≠ Django).
+**Week 2 catalog:** `evaluation_data/week2_catalog.json` (50+ categorized cases with ground truth).
 
 ```bash
 pytest tests/integration/test_baseline_evaluation.py -q
 python scripts/run_baseline_eval.py
+python scripts/run_evaluation.py
 ```
 
 ---
