@@ -1,0 +1,22 @@
+# Contoso Synthetic — IT Usage Policy
+Document ID: POL-IT-001
+Version: 2023.4
+
+## 1. Acceptable Use
+Company devices and accounts are provided for business purposes.
+Limited personal use is permitted if it does not interfere with work or violate security rules.
+
+## 2. Prohibited Activities
+Employees must not:
+- Install unapproved software
+- Disable endpoint protection
+- Share passwords
+- Access illegal content
+
+## 3. Password Requirements
+Passwords must be at least 12 characters and changed every 90 days.
+Multi-factor authentication (MFA) is mandatory for email and VPN access.
+
+## 4. Data Handling
+Confidential data must not be stored on personal USB drives.
+Cloud file sharing outside approved tools requires Information Security approval.

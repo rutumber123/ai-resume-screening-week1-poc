@@ -1,0 +1,26 @@
+# Contoso Synthetic — Travel Policy
+Document ID: POL-TRAVEL-001
+Version: 2024.1
+
+## 1. Purpose
+This policy covers business travel booking, approvals, and reimbursements.
+
+## 2. Travel Approval
+Domestic travel under USD 500 requires manager approval.
+Domestic travel of USD 500 or more, and all international travel, require manager and Finance approval before booking.
+Travel must be requested at least 10 business days before departure for international trips.
+
+## 3. Booking Channels
+Flights and hotels must be booked through the approved travel portal unless an exception is granted in writing by Finance.
+Employees may not book personal upgrades at company expense.
+
+## 4. Travel Reimbursement Process
+Employees must submit travel expense claims within 15 days of trip completion.
+Claims require receipts for all expenses above USD 25.
+Reimbursement is processed within 10 business days after Finance approval.
+Mileage for personal vehicle use is reimbursed at USD 0.45 per mile when pre-approved.
+
+## 5. Allowable Travel Expenses
+Allowable expenses include economy airfare, standard hotel accommodation, ground transport, and reasonable meals.
+Alcoholic beverages are not reimbursable unless pre-approved for a client entertainment event.
+Personal sightseeing costs are not reimbursable.

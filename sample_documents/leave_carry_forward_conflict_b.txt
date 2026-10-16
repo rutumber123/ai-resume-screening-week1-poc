@@ -1,0 +1,9 @@
+# Contoso Synthetic — Leave Carry Forward Clarification (Conflict Document)
+Document ID: POL-LEAVE-CONFLICT-B
+Version: 2023.Legacy
+Status: SUPERSEDED DRAFT — retained for conflict-testing only
+
+## Leave Carry Forward
+Employees may carry forward up to 15 days of unused annual leave into the next calendar year.
+This legacy draft conflicts with POL-LEAVE-001 which states a 10-day carry-forward limit.
+Do not treat this document as the authoritative current policy without HR confirmation.

@@ -1,0 +1,129 @@
+{
+  "results": [
+    {
+      "chunking_profile": "A_small",
+      "top_k": 3,
+      "pass_rate": 0.9,
+      "passed": 9,
+      "failed": 1,
+      "avg_score": 0.8554,
+      "run_id": "rag_20260930_162505_5207b3",
+      "avg_context_precision": 0.6,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.9222
+    },
+    {
+      "chunking_profile": "A_small",
+      "top_k": 5,
+      "pass_rate": 1.0,
+      "passed": 10,
+      "failed": 0,
+      "avg_score": 0.8552,
+      "run_id": "rag_20260930_162505_5501c9",
+      "avg_context_precision": 0.5,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.8889
+    },
+    {
+      "chunking_profile": "A_small",
+      "top_k": 8,
+      "pass_rate": 1.0,
+      "passed": 10,
+      "failed": 0,
+      "avg_score": 0.8464,
+      "run_id": "rag_20260930_162505_0c9ebb",
+      "avg_context_precision": 0.4225,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.9
+    },
+    {
+      "chunking_profile": "B_medium",
+      "top_k": 3,
+      "pass_rate": 0.9,
+      "passed": 9,
+      "failed": 1,
+      "avg_score": 0.8554,
+      "run_id": "rag_20260930_162505_365112",
+      "avg_context_precision": 0.6,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.9222
+    },
+    {
+      "chunking_profile": "B_medium",
+      "top_k": 5,
+      "pass_rate": 1.0,
+      "passed": 10,
+      "failed": 0,
+      "avg_score": 0.8552,
+      "run_id": "rag_20260930_162505_2291c2",
+      "avg_context_precision": 0.5,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.8889
+    },
+    {
+      "chunking_profile": "B_medium",
+      "top_k": 8,
+      "pass_rate": 1.0,
+      "passed": 10,
+      "failed": 0,
+      "avg_score": 0.8464,
+      "run_id": "rag_20260930_162505_e65836",
+      "avg_context_precision": 0.4225,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.9
+    },
+    {
+      "chunking_profile": "C_large",
+      "top_k": 3,
+      "pass_rate": 0.9,
+      "passed": 9,
+      "failed": 1,
+      "avg_score": 0.8554,
+      "run_id": "rag_20260930_162505_906778",
+      "avg_context_precision": 0.6,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.9222
+    },
+    {
+      "chunking_profile": "C_large",
+      "top_k": 5,
+      "pass_rate": 1.0,
+      "passed": 10,
+      "failed": 0,
+      "avg_score": 0.8552,
+      "run_id": "rag_20260930_162505_9252b6",
+      "avg_context_precision": 0.5,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.8889
+    },
+    {
+      "chunking_profile": "C_large",
+      "top_k": 8,
+      "pass_rate": 1.0,
+      "passed": 10,
+      "failed": 0,
+      "avg_score": 0.8464,
+      "run_id": "rag_20260930_162505_785d2a",
+      "avg_context_precision": 0.4225,
+      "avg_context_recall": 1.0,
+      "avg_faithfulness": 0.9
+    }
+  ],
+  "recommended": {
+    "chunking_profile": "A_small",
+    "top_k": 8,
+    "pass_rate": 1.0,
+    "passed": 10,
+    "failed": 0,
+    "avg_score": 0.8464,
+    "run_id": "rag_20260930_162505_0c9ebb",
+    "avg_context_precision": 0.4225,
+    "avg_context_recall": 1.0,
+    "avg_faithfulness": 0.9
+  },
+  "notes": [
+    "Recommendation balances pass rate, faithfulness, and context recall.",
+    "Higher K can improve recall but may reduce precision.",
+    "Smaller chunks can help precise leave-policy facts; larger chunks help multi-sentence answers."
+  ]
+}

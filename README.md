@@ -155,6 +155,17 @@ python scripts/run_evaluation.py --set-baseline
 
 See [docs/WEEK2_EVALUATION.md](docs/WEEK2_EVALUATION.md) and [docs/WEEK2_STATUS.md](docs/WEEK2_STATUS.md).
 
+### Week 3 — RAG Knowledge Assistant
+
+```bash
+streamlit run app/ui/rag_streamlit_app.py
+python scripts/generate_rag_catalog.py
+python scripts/run_rag_evaluation.py
+python scripts/run_rag_experiments.py
+```
+
+See [docs/WEEK3_RAG.md](docs/WEEK3_RAG.md) and [docs/WEEK3_STATUS.md](docs/WEEK3_STATUS.md).
+
 ---
 
 ## Evaluation

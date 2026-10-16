@@ -1,0 +1,30 @@
+# Contoso Synthetic — Expense Policy
+Document ID: POL-EXPENSE-001
+Version: 2024.2
+
+## 1. Purpose
+This policy defines expense categories, approval thresholds, and submission rules.
+
+## 2. Approval Thresholds
+Expenses under USD 100 may be approved by the employee's direct manager.
+Expenses of USD 100 or more require manager and Finance approval.
+Expenses of USD 1,000 or more additionally require department head approval.
+
+## 3. Expenses Requiring Pre-Approval
+The following expenses require written pre-approval before purchase:
+- Client gifts above USD 50
+- Software subscriptions
+- Training courses above USD 200
+- Team offsites
+
+## 4. Submission Rules
+Expense reports must be submitted monthly, no later than the 5th business day of the following month.
+Original or digital receipts are mandatory for expenses above USD 25.
+Missing receipts may result in rejection of the claim.
+
+## 5. Non-Reimbursable Items
+The company does not reimburse:
+- Personal commuting
+- Traffic fines
+- Pet care
+- Home internet upgrades not required for work

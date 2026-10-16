@@ -1,0 +1,10 @@
+Contoso Synthetic — Malformed Formatting Notes
+
+==== SECTION??? leave stuff ====
+annualleave:twenty days!!!!!
+carry forward ===== 10 days ???
+this document has   weird   spacing
+
+
+and broken bullets
+* * * travel portal required

@@ -1,0 +1,20 @@
+# Contoso Synthetic — Work From Home Policy
+Document ID: POL-WFH-001
+Version: 2024.1
+
+## 1. Eligibility
+Employees in roles designated as hybrid or remote-eligible may work from home up to 3 days per week with manager approval.
+Fully remote roles are defined in the employment contract and are not limited to 3 days.
+
+## 2. Core Hours
+Employees working from home must be available during core hours of 10:00–16:00 local time on working days.
+Meetings involving customers should prefer camera-on participation unless connectivity issues occur.
+
+## 3. Equipment
+The company provides a laptop for eligible employees.
+Home office stipends of USD 200 per year are available upon submission of receipts for ergonomic equipment.
+VPN must be used when accessing internal systems from home.
+
+## 4. Security Expectations
+Employees must lock devices when unattended and must not share company credentials.
+Printed confidential documents taken home must be secured and shredded when no longer needed.

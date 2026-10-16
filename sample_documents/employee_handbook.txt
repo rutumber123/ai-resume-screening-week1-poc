@@ -1,0 +1,19 @@
+# Contoso Synthetic — Employee Handbook (Summary)
+Document ID: HB-GENERAL-001
+Version: 2024.1
+
+## Welcome
+This handbook summarizes key employment guidelines for Contoso Synthetic.
+Detailed rules are defined in individual policy documents.
+
+## Working Hours
+Standard full-time working hours are 40 hours per week.
+Overtime requires prior manager approval.
+
+## Code of Conduct
+Employees must treat colleagues respectfully and comply with anti-harassment guidelines.
+Conflicts of interest must be disclosed to HR.
+
+## Probation
+New employees typically complete a 3-month probation period unless otherwise stated in the contract.
+During probation, leave entitlements still apply on a pro-rata basis.

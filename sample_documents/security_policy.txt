@@ -1,0 +1,15 @@
+# Contoso Synthetic — Security Policy
+Document ID: POL-SEC-001
+Version: 2024.1
+
+## 1. Incident Reporting
+Security incidents must be reported to security@contoso-synthetic.example within 1 hour of discovery.
+Examples include suspected phishing, lost devices, and unauthorized access.
+
+## 2. Access Control
+Access to systems is granted on least-privilege principles.
+Access reviews occur quarterly.
+
+## 3. Device Loss
+Lost or stolen company devices must be reported immediately so remote wipe can be initiated.
+Employees are responsible for safeguarding devices in public places.

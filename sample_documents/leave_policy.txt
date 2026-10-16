@@ -1,0 +1,31 @@
+# Contoso Synthetic — Leave Policy
+Document ID: POL-LEAVE-001
+Version: 2024.1
+Effective Date: 2024-01-01
+
+## 1. Purpose
+This policy defines annual leave, sick leave, and leave carry-forward rules for Contoso Synthetic employees.
+
+## 2. Annual Leave Entitlement
+Full-time employees receive 20 days of paid annual leave per calendar year.
+Part-time employees receive annual leave on a pro-rata basis according to contracted hours.
+New joiners receive leave entitlement from their start date, calculated pro-rata for the remaining calendar year.
+
+## 3. Leave Carry Forward
+Employees may carry forward up to 10 days of unused annual leave into the next calendar year.
+Carried-forward leave must be used by 31 March of the following year.
+Any carried-forward leave unused after 31 March will expire and cannot be encashed, except as required by local law.
+
+## 4. Sick Leave
+Employees are entitled to 10 days of paid sick leave per calendar year.
+Sick leave of more than 3 consecutive working days requires a medical certificate.
+Unused sick leave does not carry forward.
+
+## 5. Leave Request Process
+Leave requests must be submitted through the HR portal at least 7 days in advance for planned annual leave.
+Managers must approve or reject requests within 3 working days.
+Emergency leave may be requested with shorter notice and will be reviewed case by case.
+
+## 6. Public Holidays
+Public holidays are in addition to annual leave and are published annually by HR.
+Working on a public holiday requires prior written approval and is compensated per the overtime policy.
